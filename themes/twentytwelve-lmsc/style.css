@@ -1,9 +1,10 @@
 /*
 Theme Name: twentytwelve-lmsc
 Description: A Child Theme of TwentyTwelve
-Template: clean-home
+Author: Owen Stephens;
+Template: twentytwelve
 */
-@import url(../twentytwelve/style.css);
+@import url("../twentytwelve/style.css");
 
 /* Callout boxes */
 .callout {
