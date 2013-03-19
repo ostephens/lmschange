@@ -1,0 +1,14 @@
+/*
+Theme Name: twentytwelve-lmsc
+Description: A Child Theme of TwentyTwelve
+Template: clean-home
+*/
+@import url(../twentytwelve/style.css);
+
+/* Callout boxes */
+#callout {
+	position: relative;
+	left: 50px;
+	background-color: silver;
+	width: 75%;
+}
