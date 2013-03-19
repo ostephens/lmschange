@@ -6,7 +6,7 @@ Template: clean-home
 @import url(../twentytwelve/style.css);
 
 /* Callout boxes */
-#callout {
+.callout {
 	position: relative;
 	left: 50px;
 	background-color: silver;
