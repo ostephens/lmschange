@@ -12,4 +12,24 @@ Template: twentytwelve
 	left: 50px;
 	background-color: silver;
 	width: 75%;
+	padding: 10px;
+	margin:10px;
+}
+
+/* Info box */
+.infobox {
+	float: right;
+	background-color: LightSteelBlue;
+	width: 30%;
+	padding: 10px;
+	margin:10px;
+}
+
+/* Landscape report */
+.infobox-inline {
+	float: left;
+	width: 50%;
+	background-color: LightSteelBlue;
+	padding: 10px;
+	margin:10px;
 }
