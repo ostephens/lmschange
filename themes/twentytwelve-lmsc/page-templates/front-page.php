@@ -13,8 +13,8 @@
  */
 
 get_header(); ?>
-<link href="css/homepage.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="javascript/modernizr.custom.72687.js"></script>
+<link href="<?php get_bloginfo('template_url'); ?>css/homepage.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="<?php get_bloginfo('template_url'); ?>javascript/modernizr.custom.72687.js"></script>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 
