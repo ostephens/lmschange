@@ -13,8 +13,8 @@
  */
 
 get_header(); ?>
-<link href="<?php echo get_stylesheet_directory_uri(); ?>css/homepage.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>javascript/modernizr.custom.72687.js"></script>
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/homepage.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/javascript/modernizr.custom.72687.js"></script>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 
