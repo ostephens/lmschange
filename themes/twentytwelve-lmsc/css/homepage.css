@@ -12,6 +12,10 @@ ul#gameboard {
 	display: block;
 	padding: 0;
 	margin: 0;
+	line-height: normal;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
 }
 
 ul#gameboard li {
@@ -30,7 +34,7 @@ ul#gameboard li.square {
 	height: 192px;
 	position: absolute;
 	text-align: center;
-	font-size: 28px;
+	font-size: 24px;
 }
 ul#gameboard li.square a {
 	-webkit-transition: all .3s ease;
