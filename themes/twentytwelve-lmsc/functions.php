@@ -11,7 +11,7 @@ add_action( 'admin_init', 'pages_cat_tag' );
 
 function extra_styles()  
 { 
-  wp_register_style( 'colorcoding', get_template_directory_uri() . '/css/colorcoding.css',array('twentytwelve-style-css'));
+  wp_register_style( 'colorcoding', get_template_directory_uri() . '/css/colorcoding.css',20);
   wp_enqueue_style( 'colorcoding' );
 }
 add_action('wp_enqueue_scripts', 'extra_styles');
