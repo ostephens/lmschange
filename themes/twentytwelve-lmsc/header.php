@@ -31,7 +31,8 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<?php $color = get_post_meta($post->ID,'color_select',true); ?>
+<body <?php body_class($colour); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
