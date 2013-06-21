@@ -1,0 +1,131 @@
+/*////////////////////////////
+//////////////////////////////
+////// COLOR CODED PAGES /////
+//////////////////////////////
+////////////////////////////*/
+body .entry-title {
+  border-bottom: 3px solid #444444;
+  padding-bottom: 10px;
+}
+body .infobox,
+body .infobox-inline,
+body th,
+body .tablepress thead th,
+body .tablepress tfoot th {
+  color: white;
+  background: #444444;
+}
+body.red .entry-title {
+  border-color: #ff0000;
+}
+body.red .infobox,
+body.red .infobox-inline,
+body.red th,
+body.red .tablepress thead th,
+body.red .tablepress tfoot th {
+  background: #ff0000;
+}
+body.yellow .entry-title {
+  border-color: #fcee21;
+}
+body.yellow .infobox,
+body.yellow .infobox-inline,
+body.yellow th,
+body.yellow .tablepress thead th,
+body.yellow .tablepress tfoot th {
+  background: #fcee21;
+  color: #444444;
+}
+body.brown .entry-title {
+  border-color: #8c6239;
+}
+body.brown .infobox,
+body.brown .infobox-inline,
+body.brown th,
+body.brown .tablepress thead th,
+body.brown .tablepress tfoot th {
+  background: #8c6239;
+}
+body.green .entry-title {
+  border-color: #39ab38;
+}
+body.green .infobox,
+body.green .infobox-inline,
+body.green th,
+body.green .tablepress thead th,
+body.green .tablepress tfoot th {
+  background: #39ab38;
+}
+body.blue .entry-title {
+  border-color: #8adcff;
+}
+body.blue .infobox,
+body.blue .infobox-inline,
+body.blue th,
+body.blue .tablepress thead th,
+body.blue .tablepress tfoot th {
+  background: #8adcff;
+  color: #444444;
+}
+body.pink .entry-title {
+  border-color: #ff4589;
+}
+body.pink .infobox,
+body.pink .infobox-inline,
+body.pink th,
+body.pink .tablepress thead th,
+body.pink .tablepress tfoot th {
+  background: #ff4589;
+}
+body.orange .entry-title {
+  border-color: #ff9300;
+}
+body.orange .infobox,
+body.orange .infobox-inline,
+body.orange th,
+body.orange .tablepress thead th,
+body.orange .tablepress tfoot th {
+  background: #ff9300;
+}
+body.cyan .entry-title {
+  border-color: #00c5f2;
+}
+body.cyan .infobox,
+body.cyan .infobox-inline,
+body.cyan th,
+body.cyan .tablepress thead th,
+body.cyan .tablepress tfoot th {
+  background: #00c5f2;
+}
+.menu li {
+  padding-left: 5px;
+  margin-bottom: 4px;
+  border-left: 3px solid #444444;
+}
+.menu li:last-of-type {
+  margin-bottom: 0;
+}
+.menu li.red {
+  border-color: #ff0000;
+}
+.menu li.pink {
+  border-color: #ff4589;
+}
+.menu li.brown {
+  border-color: #8c6239;
+}
+.menu li.yellow {
+  border-color: #fcee21;
+}
+.menu li.green {
+  border-color: #39ab38;
+}
+.menu li.blue {
+  border-color: #8adcff;
+}
+.menu li.orange {
+  border-color: #ff9300;
+}
+.menu li.cyan {
+  border-color: #00c5f2;
+}
