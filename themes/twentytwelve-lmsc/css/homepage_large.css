@@ -5,10 +5,9 @@ BOARD GAME NAVIGATION ELEMENT
 ////////////////////////////*/
 
 ul#gameboard {
-	width: 710px;
-	height: 710px;
-	background: #C8FFFC url(../images/gameboard.png) center center no-repeat;
-	background-size: 100% 100%;		
+	width: 960px;
+	height: 960px;
+	background: #C8FFFC url(../images/gameboard.png) center center no-repeat;	
 	position: relative;
 	display: block;
 	padding: 0;
@@ -31,11 +30,11 @@ SQUARES AROUND THE BOARD
 
 ul#gameboard li.square {
 	display: block;
-	width: 142px;
-	height: 142px;
+	width: 192px;
+	height: 192px;
 	position: absolute;
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px;
 }
 ul#gameboard li.square a {
 	-webkit-transition: all .3s ease;
@@ -52,10 +51,10 @@ ul#gameboard li.square a {
 
 ul#gameboard li.square a span {
 	display: block;
-	width: 110px;
-	height: 110px;
+	width: 148px;
+	height: 148px;
 	opacity: 0;
-	padding: 14px;
+	padding: 0px 20px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-ms-transition: all 1s ease;
@@ -70,11 +69,11 @@ ul#gameboard li.square:hover a span {
 /* Size and positions for horizontal squares */
 
 ul#gameboard li.topSquare a, ul#gameboard li.bottomSquare a {
-	width: 140px;
-	height: 31px; 
+	width: 189px;
+	height: 41px; 
 }
 ul#gameboard li.topSquare:hover a, ul#gameboard li.bottomSquare:hover a {
-	height: 139px; 
+	height: 188px; 
 }
 ul#gameboard li.topSquare {
 	top: 0; 
@@ -83,20 +82,20 @@ ul#gameboard li.bottomSquare {
 	bottom: 0
 }
 ul#gameboard li.topSquare a {
-	bottom: 1px; 
+	bottom: 2px; 
 }
 ul#gameboard li.bottomSquare a {
-	top: 1px;
+	top: 2px;
 }
 
 /* Size and positions for vertical squares */
 
 ul#gameboard li.leftSquare a, ul#gameboard li.rightSquare a {
-	height: 140px;
-	width: 31px; 
+	height: 189px;
+	width: 41px; 
 }
 ul#gameboard li.leftSquare:hover a, ul#gameboard li.rightSquare:hover a {
-	width: 139px;
+	width: 188px;
 }
 ul#gameboard li.leftSquare {
 	left: 0;
@@ -105,31 +104,31 @@ ul#gameboard li.rightSquare {
 	right: 0;
 }
 ul#gameboard li.leftSquare a {
-	right: 1px;
+	right: 2px;
 }
 ul#gameboard li.rightSquare a {
-	left: 1px;
+	left: 2px;
 }
 
 /* Positions for rows and columns */
 
 ul#gameboard li.rowOne {
-	top: 143px;	
+	top: 194px;	
 }
 ul#gameboard li.rowTwo {
-	top: 285px;	
+	top: 386px;	
 }
 ul#gameboard li.rowThree {
-	top: 427px;	
+	top: 578px;	
 }
 ul#gameboard li.colOne {
-	left: 144px;	
+	left: 194px;	
 }
 ul#gameboard li.colTwo {
-	left: 286px;	
+	left: 386px;	
 }
 ul#gameboard li.colThree {
-	left: 428px;
+	left: 578px;	
 }
 
 /* Colour Classes */
@@ -180,24 +179,24 @@ ul#gameboard li.hotSpot {
 }
 
 ul#gameboard #commSquare {
-	width: 159px;
-	height: 159px;
-	top: 172px;
-	left: 174px;
+	width: 216px;
+	height: 216px;
+	top: 233px;
+	left: 236px;
 	z-index: 40;
 }
 ul#gameboard #logoSquare {
-	width: 326px;
-	height: 326px;
-	top: 191px;
-	left: 193px;
+	width: 442px;
+	height: 442px;
+	top: 258px;
+	left: 261px;
 	z-index: 4;
 }
 ul#gameboard #factSquare {
-	width: 160px;
-	height: 160px;
-	bottom: 173px;
-	right: 171px;
+	width: 216px;
+	height: 216px;
+	bottom: 235px;
+	right: 233px;
 	z-index: 40;	
 }
 
@@ -212,20 +211,20 @@ ul#gameboard #factSquare {
 }
 
 .csstransforms ul#gameboard #commSquare {
-	width: 133px;
-	height: 95px;
-	top: 206px;
-	left: 187px;
+	width: 180px;
+	height: 128px;
+	top: 277px;
+	left: 254px;
 }
 .csstransforms ul#gameboard #logoSquare {
-	width: 386px;
-	height: 77px;
-	top: 315px;
-	left: 163px;
+	width: 521px;
+	height: 105px;
+	top: 426px;
+	left: 221px;
 }
 .csstransforms ul#gameboard #factSquare {
-	width: 133px;
-	height: 95px;
-	bottom: 207px;
-	right: 185px;
+	width: 180px;
+	height: 128px;
+	bottom: 279px;
+	right: 251px;
 }
