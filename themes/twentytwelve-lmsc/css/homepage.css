@@ -4,10 +4,11 @@ BOARD GAME NAVIGATION ELEMENT
 //////////////////////////////
 ////////////////////////////*/
 
-ul.gameboard {
-	width: 960px;
-	height: 960px;
-	background: #C8FFFC url(../images/gameboard.png) center center no-repeat;	
+ul#gameboard {
+	width: 710px;
+	height: 710px;
+	background: #C8FFFC url(../images/gameboard.png) center center no-repeat;
+	background-size: 100% 100%;		
 	position: relative;
 	display: block;
 	padding: 0;
@@ -18,7 +19,7 @@ ul.gameboard {
 	hyphens: none;
 }
 
-ul.gameboard li {
+ul#gameboard li {
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -28,15 +29,15 @@ ul.gameboard li {
 SQUARES AROUND THE BOARD
 //////////////////////*/
 
-ul.gameboard li.square {
+ul#gameboard li.square {
 	display: block;
-	width: 192px;
-	height: 192px;
+	width: 142px;
+	height: 142px;
 	position: absolute;
 	text-align: center;
-	font-size: 24px;
+	font-size: 22px;
 }
-ul.gameboard li.square a {
+ul#gameboard li.square a {
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	-ms-transition: all .3s ease;
@@ -49,12 +50,12 @@ ul.gameboard li.square a {
 	text-decoration: none;	
 }
 
-ul.gameboard li.square a span {
+ul#gameboard li.square a span {
 	display: block;
-	width: 148px;
-	height: 148px;
+	width: 110px;
+	height: 110px;
 	opacity: 0;
-	padding: 0px 20px;
+	padding: 14px;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-ms-transition: all 1s ease;
@@ -62,95 +63,95 @@ ul.gameboard li.square a span {
 	transition: all 1s ease;
 }
 
-ul.gameboard li.square:hover a span {
+ul#gameboard li.square:hover a span {
 	opacity: 1;
 }
 
 /* Size and positions for horizontal squares */
 
-ul.gameboard li.topSquare a, ul.gameboard li.bottomSquare a {
-	width: 189px;
-	height: 41px; 
+ul#gameboard li.topSquare a, ul#gameboard li.bottomSquare a {
+	width: 140px;
+	height: 31px; 
 }
-ul.gameboard li.topSquare:hover a, ul.gameboard li.bottomSquare:hover a {
-	height: 188px; 
+ul#gameboard li.topSquare:hover a, ul#gameboard li.bottomSquare:hover a {
+	height: 139px; 
 }
-ul.gameboard li.topSquare {
+ul#gameboard li.topSquare {
 	top: 0; 
 }
-ul.gameboard li.bottomSquare {
+ul#gameboard li.bottomSquare {
 	bottom: 0
 }
-ul.gameboard li.topSquare a {
-	bottom: 2px; 
+ul#gameboard li.topSquare a {
+	bottom: 1px; 
 }
-ul.gameboard li.bottomSquare a {
-	top: 2px;
+ul#gameboard li.bottomSquare a {
+	top: 1px;
 }
 
 /* Size and positions for vertical squares */
 
-ul.gameboard li.leftSquare a, ul.gameboard li.rightSquare a {
-	height: 189px;
-	width: 41px; 
+ul#gameboard li.leftSquare a, ul#gameboard li.rightSquare a {
+	height: 140px;
+	width: 31px; 
 }
-ul.gameboard li.leftSquare:hover a, ul.gameboard li.rightSquare:hover a {
-	width: 188px;
+ul#gameboard li.leftSquare:hover a, ul#gameboard li.rightSquare:hover a {
+	width: 139px;
 }
-ul.gameboard li.leftSquare {
+ul#gameboard li.leftSquare {
 	left: 0;
 }
-ul.gameboard li.rightSquare {
+ul#gameboard li.rightSquare {
 	right: 0;
 }
-ul.gameboard li.leftSquare a {
-	right: 2px;
+ul#gameboard li.leftSquare a {
+	right: 1px;
 }
-ul.gameboard li.rightSquare a {
-	left: 2px;
+ul#gameboard li.rightSquare a {
+	left: 1px;
 }
 
 /* Positions for rows and columns */
 
-ul.gameboard li.rowOne {
-	top: 194px;	
+ul#gameboard li.rowOne {
+	top: 143px;	
 }
-ul.gameboard li.rowTwo {
-	top: 386px;	
+ul#gameboard li.rowTwo {
+	top: 285px;	
 }
-ul.gameboard li.rowThree {
-	top: 578px;	
+ul#gameboard li.rowThree {
+	top: 427px;	
 }
-ul.gameboard li.colOne {
-	left: 194px;	
+ul#gameboard li.colOne {
+	left: 144px;	
 }
-ul.gameboard li.colTwo {
-	left: 386px;	
+ul#gameboard li.colTwo {
+	left: 286px;	
 }
-ul.gameboard li.colThree {
-	left: 578px;	
+ul#gameboard li.colThree {
+	left: 428px;
 }
 
 /* Colour Classes */
 
-ul.gameboard li.red a {
+ul#gameboard li.red a {
 	background: red;
 }
-ul.gameboard li.pink a {
+ul#gameboard li.pink a {
 	background: #ff4589;
 }
-ul.gameboard li.green a {
+ul#gameboard li.green a {
 	background: #39ab38;
 }
-ul.gameboard li.blue a {
+ul#gameboard li.blue a {
 	background: #8adcff;
 	color: black;
 }
-ul.gameboard li.yellow a {
+ul#gameboard li.yellow a {
 	background: #fcee21;
 	color: black;
 }
-ul.gameboard li.brown a {
+ul#gameboard li.brown a {
 	background: #8c6239;
 }
 
@@ -158,13 +159,13 @@ ul.gameboard li.brown a {
 HOT SPOTS FOR CENTRE OF BOARD
 ////////////////////////////*/
 
-ul.gameboard li.hotSpot a {
+ul#gameboard li.hotSpot a {
 	display: block;
 	width: 100%;
 	height: 100%;	
 }
 
-ul.gameboard li.hotSpot a span {
+ul#gameboard li.hotSpot a span {
 	position: absolute;
 	top: -1000000px;
 	left: -1000000px;	
@@ -173,36 +174,36 @@ ul.gameboard li.hotSpot a span {
 
 /* No JS or old browser */
 
-ul.gameboard li.hotSpot {
+ul#gameboard li.hotSpot {
 	display: block;
 	position: absolute;
 }
 
-ul.gameboard .commSquare {
-	width: 216px;
-	height: 216px;
-	top: 233px;
-	left: 236px;
+ul#gameboard #commSquare {
+	width: 159px;
+	height: 159px;
+	top: 172px;
+	left: 174px;
 	z-index: 40;
 }
-ul.gameboard .logoSquare {
-	width: 442px;
-	height: 442px;
-	top: 258px;
-	left: 261px;
+ul#gameboard #logoSquare {
+	width: 326px;
+	height: 326px;
+	top: 191px;
+	left: 193px;
 	z-index: 4;
 }
-ul.gameboard .factSquare {
-	width: 216px;
-	height: 216px;
-	bottom: 235px;
-	right: 233px;
+ul#gameboard #factSquare {
+	width: 160px;
+	height: 160px;
+	bottom: 173px;
+	right: 171px;
 	z-index: 40;	
 }
 
 /* When Modernizr is installed, hot spots are specifically sized and rotated to the button */
 
-.csstransforms ul.gameboard li.hotSpot {
+.csstransforms ul#gameboard li.hotSpot {
 	-moz-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
@@ -210,21 +211,21 @@ ul.gameboard .factSquare {
     transform: rotate(-45deg);
 }
 
-.csstransforms ul.gameboard .commSquare {
-	width: 180px;
-	height: 128px;
-	top: 277px;
-	left: 254px;
+.csstransforms ul#gameboard #commSquare {
+	width: 133px;
+	height: 95px;
+	top: 206px;
+	left: 187px;
 }
-.csstransforms ul.gameboard .logoSquare {
-	width: 521px;
-	height: 105px;
-	top: 426px;
-	left: 221px;
+.csstransforms ul#gameboard #logoSquare {
+	width: 386px;
+	height: 77px;
+	top: 315px;
+	left: 163px;
 }
-.csstransforms ul.gameboard .factSquare {
-	width: 180px;
-	height: 128px;
-	bottom: 279px;
-	right: 251px;
+.csstransforms ul#gameboard #factSquare {
+	width: 133px;
+	height: 95px;
+	bottom: 207px;
+	right: 185px;
 }
