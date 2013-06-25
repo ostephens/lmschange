@@ -45,7 +45,7 @@ a#miniboard {
 	display: block;
 	width: 120px;
 	height: 120px;
-	background: #CCC url(../images/gameboard_120.png) center center no-repeat;	
+	background: #CCC url(./images/gameboard_120.png) center center no-repeat;	
 	position: absolute;
 	top: 40px;
 	right: 0;	
