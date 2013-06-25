@@ -49,6 +49,8 @@
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
+		
+		<a id="miniboard" href="<?php if(!is_front_page()) { echo get_site_url(); } ?>#gameboard"></a>
 
 		<?php $header_image = get_header_image();
 		if ( ! empty( $header_image ) ) : ?>

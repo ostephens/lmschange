@@ -2,7 +2,6 @@
 /* CSS Document */
 
 ul#gameboard {
-	background: #C8FFFC url(../images/gameboard.png) center center no-repeat;	
 	background-size: 100% 100%;		
 	position: relative;
 	display: block;
@@ -128,6 +127,7 @@ ul#gameboard #factSquare {
 ul#gameboard {
 	width: 960px;
 	height: 960px;
+	background: rgb(229,251,222) url(../images/gameboard.png) center center no-repeat;		
 }
 
 /*//////////////////////
@@ -259,6 +259,7 @@ ul#gameboard #factSquare {
 ul#gameboard {
 	width: 710px;
 	height: 710px !important;
+	background: rgb(229,251,222) url(../images/gameboard_710.png) center center no-repeat;		
 }
 
 /*//////////////////////
