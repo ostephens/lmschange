@@ -36,7 +36,7 @@
 </head>
 
 <?php $color = get_post_meta($post->ID,'color_select',true); ?>
-<body <?php body_class($colour); ?>>
+<body <?php body_class($color); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 		<hgroup>
