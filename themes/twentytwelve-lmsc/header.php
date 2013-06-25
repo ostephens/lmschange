@@ -29,6 +29,10 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
+<?php if(is_front_page()) { ?>
+	<link href="<?php echo get_stylesheet_directory_uri(); ?>/css/homepage_responsive.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/javascript/modernizr.custom.72687.js"></script>
+<?php } ?>
 </head>
 
 <?php $color = get_post_meta($post->ID,'color_select',true); ?>
