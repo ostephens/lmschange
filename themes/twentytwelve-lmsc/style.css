@@ -19,17 +19,17 @@ Template: twentytwelve
 /* Info box */
 .infobox {
 	float: right;
-	background-color: LightSteelBlue;
+	/*background-color: LightSteelBlue;*/
 	width: 30%;
 	padding: 10px;
-	margin:10px;
+	margin: 10px 0 10px 10px;
 }
 
 /* Landscape report */
 .infobox-inline {
 	float: left;
 	width: 50%;
-	background-color: LightSteelBlue;
+	/*background-color: LightSteelBlue;*/
 	padding: 10px;
-	margin:10px;
+	margin: 10px 10px 10px 0;
 }
