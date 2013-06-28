@@ -59,10 +59,11 @@ body.yellow .tablepress tfoot th a {
   color: #444444;
 }
 body.yellow .hentry a {
-  color: #444444;
+  color: #827a02;
 }
 body.yellow .hentry a:hover {
   background: #fcee21;
+  color: #444444;
 }
 body.brown .entry-title {
   border-color: #8c6239;
@@ -110,10 +111,11 @@ body.blue .tablepress tfoot th {
   color: #444444;
 }
 body.blue .hentry a {
-  color: #444444;
+  color: #00a8f0;
 }
 body.blue .hentry a:hover {
   background: #8adcff;
+  color: white;
 }
 body.pink .entry-title {
   border-color: #ff4589;
@@ -127,10 +129,11 @@ body.pink .tablepress tfoot th {
   color: #444444;
 }
 body.pink .hentry a {
-  color: #444444;
+  color: #ff4589;
 }
 body.pink .hentry a:hover {
   background: #ff4589;
+  color: white;
 }
 body.orange .entry-title {
   border-color: #ff9300;
