@@ -33,6 +33,13 @@ body.red .tablepress thead th,
 body.red .tablepress tfoot th {
   background: #ff0000;
 }
+body.red .hentry a {
+  color: #ff0000;
+}
+body.red .hentry a:hover {
+  background: #ff0000;
+  color: white;
+}
 body.yellow .entry-title {
   border-color: #fcee21;
 }
@@ -51,6 +58,12 @@ body.yellow .tablepress thead th a,
 body.yellow .tablepress tfoot th a {
   color: #444444;
 }
+body.yellow .hentry a {
+  color: #444444;
+}
+body.yellow .hentry a:hover {
+  background: #fcee21;
+}
 body.brown .entry-title {
   border-color: #8c6239;
 }
@@ -61,6 +74,13 @@ body.brown .tablepress thead th,
 body.brown .tablepress tfoot th {
   background: #8c6239;
 }
+body.brown .hentry a {
+  color: #8c6239;
+}
+body.brown .hentry a:hover {
+  background: #8c6239;
+  color: white;
+}
 body.green .entry-title {
   border-color: #39ab38;
 }
@@ -70,6 +90,13 @@ body.green th,
 body.green .tablepress thead th,
 body.green .tablepress tfoot th {
   background: #39ab38;
+}
+body.green .hentry a {
+  color: #39ab38;
+}
+body.green .hentry a:hover {
+  background: #39ab38;
+  color: white;
 }
 body.blue .entry-title {
   border-color: #8adcff;
@@ -82,6 +109,12 @@ body.blue .tablepress tfoot th {
   background: #8adcff;
   color: #444444;
 }
+body.blue .hentry a {
+  color: #444444;
+}
+body.blue .hentry a:hover {
+  background: #8adcff;
+}
 body.pink .entry-title {
   border-color: #ff4589;
 }
@@ -90,6 +123,13 @@ body.pink .infobox-inline,
 body.pink th,
 body.pink .tablepress thead th,
 body.pink .tablepress tfoot th {
+  background: #ff4589;
+  color: #444444;
+}
+body.pink .hentry a {
+  color: #444444;
+}
+body.pink .hentry a:hover {
   background: #ff4589;
 }
 body.orange .entry-title {
@@ -102,6 +142,13 @@ body.orange .tablepress thead th,
 body.orange .tablepress tfoot th {
   background: #ff9300;
 }
+body.orange .hentry a {
+  color: #ff9300;
+}
+body.orange .hentry a:hover {
+  background: #ff9300;
+  color: white;
+}
 body.cyan .entry-title {
   border-color: #00c5f2;
 }
@@ -111,6 +158,13 @@ body.cyan th,
 body.cyan .tablepress thead th,
 body.cyan .tablepress tfoot th {
   background: #00c5f2;
+}
+body.cyan .hentry a {
+  color: #00c5f2;
+}
+body.cyan .hentry a:hover {
+  background: #00c5f2;
+  color: white;
 }
 .menu li {
   padding-left: 5px;
