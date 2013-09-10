@@ -37,11 +37,11 @@ get_header(); ?>
 								&rarr;</span> </a> </li>
 						<li class="square bottomSquare colThree brown"> <a href="http://lmsguidance.jiscinvolve.org/wp/sitemap/" title="Site Map"> <span>Site Map<br>
 								&rarr;</span> </a> </li>
-						<li class="hotSpot commSquare" id="commSquare"> <a href="http://lmsguidance.jiscinvolve.org/wp/shared-services/" title="Shared Services "> <span>Shared Services<br>
+						<li class="hotSpot commSquare" id="commSquare"> <a href="http://lmsguidance.jiscinvolve.org/wp/community-services/" title="Community Services "> <span>Community Services<br>
 								&rarr;</span> </a> </li>
 						<li class="hotSpot logoSquare" id="logoSquare"> <a href="http://lmsguidance.jiscinvolve.org/wp/about-lms-change/" title="About LMS Change"> <span>About LMS Change<br>
 								&rarr;</span> </a> </li>
-						<li class="hotSpot factSquare" id="factSquare"> <a href="http://lmsguidance.jiscinvolve.org/wp/strategic-direction/" title="Strategic Direction"> <span>Strategic Direction<br>
+						<li class="hotSpot factSquare" id="factSquare"> <a href="http://lmsguidance.jiscinvolve.org/wp/policy-direction/" title="Policy Direction"> <span>Policy Direction<br>
 								&rarr;</span> </a> </li>
 				</ul>
 				<?php get_template_part( 'content', 'page' ); ?>
