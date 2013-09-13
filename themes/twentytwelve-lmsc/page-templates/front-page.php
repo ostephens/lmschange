@@ -23,7 +23,7 @@ get_header(); ?>
 						<li class="square topSquare colThree red"> <a href="http://lmsguidance.jiscinvolve.org/wp/the-library-service-platform-context/landscape-library-systems/" title="Landscape Library System"> <span>Landscape Library System &rarr;</span> </a> </li>
 						<li class="square leftSquare rowOne yellow"> <a href="http://lmsguidance.jiscinvolve.org/wp/checklists/library-service-checklist/" title="LMS Checklist"> <span>LMS Checklist<br>
 								&rarr;</span> </a> </li>
-						<li class="square leftSquare rowTwo green"> <a href="/" title="JISC Projects"> <span>JISC Projects<br>
+						<li class="square leftSquare rowTwo green"> <a href="http://lmsguidance.jiscinvolve.org/wp/jisc-projects/" title="JISC Projects"> <span>JISC Projects<br>
 								&rarr;</span> </a> </li>
 						<li class="square leftSquare rowThree pink"> <a href="http://lmsguidance.jiscinvolve.org/wp/the-library-service-platform-context/landscape-higher-education/" title="Landscape Higher Education"> <span>Landscape Higher Education &rarr;</span> </a> </li>
 						<li class="square rightSquare rowOne green"> <a href="http://lmsguidance.jiscinvolve.org/wp/methods-toolbox/" title="Methods Tool Box"> <span>Methods Tool Box<br>
@@ -37,7 +37,7 @@ get_header(); ?>
 								&rarr;</span> </a> </li>
 						<li class="square bottomSquare colThree brown"> <a href="http://lmsguidance.jiscinvolve.org/wp/sitemap/" title="Site Map"> <span>Site Map<br>
 								&rarr;</span> </a> </li>
-						<li class="hotSpot commSquare" id="commSquare"> <a href="http://lmsguidance.jiscinvolve.org/wp/community-services/" title="Community Services "> <span>Community Services<br>
+						<li class="hotSpot commSquare" id="commSquare"> <a href="http://lmsguidance.jiscinvolve.org/wp/shared-services/" title="Shared Services "> <span>Shared Services<br>
 								&rarr;</span> </a> </li>
 						<li class="hotSpot logoSquare" id="logoSquare"> <a href="http://lmsguidance.jiscinvolve.org/wp/about-lms-change/" title="About LMS Change"> <span>About LMS Change<br>
 								&rarr;</span> </a> </li>
